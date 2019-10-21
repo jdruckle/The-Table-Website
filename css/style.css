@@ -148,6 +148,21 @@ i, em, .italic{
 	border-radius:100%;
 }
 
+.mobile {
+    display: none;
+}
+.desktop {
+    display: auto;
+}
+@media screen and (max-width: 736px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
 /* ==================================================
    Typography
 ================================================== */
@@ -1516,9 +1531,6 @@ html[xmlns] .slides {
 .featured-block .img-thumbnail:hover{
 	opacity:1;
 }
-.listing-header, .post-title{
-	border-bottom:1px solid #eceae4;
-}
 .listing-header-sub{
 	text-align:right;
 	padding-top:10px;
@@ -1529,6 +1541,10 @@ html[xmlns] .slides {
 }
 .listing-cont, .post-content{
 	border-top:4px solid #f8f7f3;
+}
+.post-listing {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .listing .item{
 	width:100%;
