@@ -1,3 +1,18 @@
 /* ==================================================
    Add your own style here. This file will overide properties described in any other css file.
 ================================================== */
+
+
+#gridHolder {
+	display: inline !important;
+}
+#gridHolder li {
+	display: inline !important;
+}
+#gridHolder img {
+  height: 150px;
+  width: 100%;
+}
+#gridHolder h3 {
+  height: 100px;
+}
