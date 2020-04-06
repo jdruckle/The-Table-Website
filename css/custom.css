@@ -16,3 +16,7 @@
 #gridHolder h3 {
   height: 100px;
 }
+
+p a {
+	color: blue;
+}
