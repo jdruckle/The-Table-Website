@@ -20,3 +20,8 @@
 p a {
 	color: blue;
 }
+
+.featured-gallery img{
+	height: 150px;
+	width: 100%;
+}
