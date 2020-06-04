@@ -25,3 +25,15 @@ p a {
 	height: 150px;
 	width: 100%;
 }
+
+@media screen and (max-width:768px) {
+	.desktop {
+		display: none;
+	}
+}
+
+@media screen and (min-width:769px) {
+	.mobile {
+		display: none;
+	}
+}
