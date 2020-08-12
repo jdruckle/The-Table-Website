@@ -1596,7 +1596,6 @@ html[xmlns] .slides {
 	margin-right:3%
 }
 .event-item .to-event-url{
-	float:left;
 	width:17%;
 	text-align:right;
 	display:table;
@@ -1605,6 +1604,7 @@ html[xmlns] .slides {
 .event-item .to-event-url div{
 	display:table-cell;
     vertical-align:middle;
+			float:right;
 }
 .event-item .event-detail h4{
 	font-family: 'Roboto', sans-serif;

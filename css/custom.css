@@ -37,3 +37,7 @@ p a {
 		display: none;
 	}
 }
+
+.events-listing {
+	padding-bottom: 150px;
+}
