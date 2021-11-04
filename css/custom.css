@@ -54,11 +54,18 @@ p a {
 
 .our-partners-section .partner-card-content {
 	padding: 50px 25px 50px 25px;
-	min-height: 350px;
 	border-style: solid;
 	border-radius: 15px;
 	border-width: 1px;
 	border-color: #000;
+}
+
+.our-partners-section .partner-card-content img {
+	height: 150px !important;
+}
+
+.our-partners-section .partner-card-content h5 {
+	height: 75px !important;
 }
 
 .our-partners-section .partner-card-content .pt-2 {
